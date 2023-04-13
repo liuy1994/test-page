@@ -4,4 +4,8 @@ COPY . ./temp
 
 WORKDIR /temp
 
+RUN yarn
+
+RUN yarn build
+
 EXPOSE 80
